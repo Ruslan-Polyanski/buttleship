@@ -1,0 +1,8 @@
+.squers {
+  display: flex;
+}
+
+.area {
+  border: 1px solid red;
+  display: inline-block;
+}

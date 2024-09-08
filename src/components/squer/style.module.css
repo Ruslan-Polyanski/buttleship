@@ -1,0 +1,33 @@
+:root {
+  --main-size: 35px;
+}
+
+.squer {
+  width: 30px;
+  height: 30px;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    &:hover {
+      cursor: pointer;
+    }
+}
+
+.text {
+  font-size: var(--main-size);
+  transform: rotate(45deg);
+  user-select: none;
+}
+
+.ship {
+  background-color: #111;
+  color: white;
+  &::after {
+    content: '+';
+    font-size: var(--main-size);
+    transform: rotate(45deg);
+  }
+}
+
+  
